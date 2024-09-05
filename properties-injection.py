@@ -3,7 +3,7 @@ import argparse
 import YAMLReplacer
 import JarUnpacker
 
-def loadCommandArg(args):
+def loadCommandArg():
     #Load our command line arguments
     parser=argparse.ArgumentParser()
     parser.add_argument('-e', '--environmentProperties', required=True, help='Path to the environment properties YAML file containing the values to be injected')
