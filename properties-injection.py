@@ -1,7 +1,7 @@
 import sys
 import argparse
-from . import YAMLReplacer
-from . import JarUnpacker
+import YAMLReplacer
+import JarUnpacker
 
 def loadCommandArg(args):
     #Load our command line arguments
